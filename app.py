@@ -6,8 +6,8 @@ drive.mount('/content/drive')
 import zipfile
 import os
 
-zip_path = '/content/archive (1).zip'
-extract_path = '/content/extracted_data'
+zip_path = 'archive (5).zip'
+extract_path = 'extracted_data'
 
 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall(extract_path)
